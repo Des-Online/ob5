@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Ongedierte Buddy</title>
+  <desc id="desc">Ongedierte Buddy logo met een oranje schild en kever op een donkergroene achtergrond.</desc>
+  <defs>
+  <linearGradient id="brandGradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B6A56"/>
+    <stop offset="0.52" stop-color="#073E32"/>
+    <stop offset="1" stop-color="#052E27"/>
+  </linearGradient>
+  <linearGradient id="orangeGradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFA21A"/>
+    <stop offset="1" stop-color="#FF8A00"/>
+  </linearGradient>
+</defs>
+  <g id="brand-mark">
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#brandGradient)"/>
+  <path d="M256 100 369 152v102c0 79-45 136-113 174-68-38-113-95-113-174V152L256 100Z" fill="none" stroke="url(#orangeGradient)" stroke-width="22" stroke-linejoin="round"/>
+  <g fill="none" stroke="#FF9410" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M228 205c7-16 20-25 28-25s21 9 28 25"/>
+    <path d="M229 181c-5-10-13-16-24-17"/>
+    <path d="M283 181c5-10 13-16 24-17"/>
+    <path d="M256 207c-31 0-50 23-50 57v32c0 39 21 66 50 66s50-27 50-66v-32c0-34-19-57-50-57Z"/>
+    <path d="M256 213v143"/>
+    <path d="M208 246l-22-17"/>
+    <path d="M207 276l-28 2"/>
+    <path d="M210 307l-21 23"/>
+    <path d="M304 246l22-17"/>
+    <path d="M305 276l28 2"/>
+    <path d="M302 307l21 23"/>
+  </g>
+</g>
+</svg>

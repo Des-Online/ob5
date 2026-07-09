@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Ongedierte Buddy</title>
+  <desc id="desc">Ongedierte Buddy logo met een oranje schild en kever op een donkergroene achtergrond.</desc>
+  
+  <g transform="translate(0 0)">
+  <path d="M256 62 406 132v136c0 105-60 181-150 232-90-51-150-127-150-232V132L256 62Z" fill="none" stroke="#000" stroke-width="30" stroke-linejoin="round"/>
+  <g fill="none" stroke="#000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M220 198c9-21 26-33 36-33s27 12 36 33"/>
+    <path d="M221 165c-7-13-18-21-32-22"/><path d="M291 165c7-13 18-21 32-22"/>
+    <path d="M256 201c-41 0-66 31-66 75v42c0 52 28 88 66 88s66-36 66-88v-42c0-44-25-75-66-75Z"/>
+    <path d="M256 207v191"/>
+    <path d="M193 253l-30-23"/><path d="M192 294l-37 3"/><path d="M197 335l-28 31"/>
+    <path d="M319 253l30-23"/><path d="M320 294l37 3"/><path d="M315 335l28 31"/>
+  </g>
+</g>
+</svg>
