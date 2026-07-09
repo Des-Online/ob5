@@ -1,0 +1,130 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  background: rgba(5, 46, 39, 0.45);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sheet {
+  width: 100%;
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  background: var(--color-page);
+  border-radius: 24px 24px 0 0;
+  padding: 22px 18px calc(22px + var(--safe-bottom));
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-white);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.progress {
+  margin: 0 0 8px;
+  color: var(--color-brand-mid);
+  font-weight: 850;
+}
+
+.sheet h2 {
+  margin: 0 48px 18px 0;
+  font-size: 1.6rem;
+}
+
+.sheet label,
+.sheet fieldset {
+  display: grid;
+  gap: 8px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+}
+
+.sheet input,
+.sheet select,
+.sheet textarea {
+  border: 1.5px solid var(--color-border);
+  border-radius: 13px;
+  padding: 14px;
+  background: var(--color-white);
+}
+
+.radio {
+  background: var(--color-white);
+  border: 1px solid var(--color-border-soft);
+  border-radius: 13px;
+  padding: 12px;
+  display: flex !important;
+  grid-template-columns: auto 1fr;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.contactGrid p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.error {
+  min-height: 22px;
+  color: #9f2300;
+  font-weight: 800;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 10px;
+}
+
+.actions button,
+.success button {
+  min-height: 50px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--color-border);
+  background: var(--color-white);
+  color: var(--color-brand-dark);
+  font-weight: 850;
+}
+
+.actions button:last-child,
+.success button {
+  background: var(--color-orange);
+  color: var(--color-white);
+  border-color: var(--color-orange);
+}
+
+.success {
+  padding: 22px 0;
+}
+
+@media (min-width: 720px) {
+  .backdrop {
+    align-items: center;
+    padding: 24px;
+  }
+
+  .sheet {
+    max-width: 520px;
+    border-radius: 24px;
+    padding: 28px;
+  }
+}
